@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      Plan your dream vacation and we will guess what type of personality you
+      have!
+    </h1>
+
+    <h2>Where in the world would you travel?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Famalfi.jpeg?v=1592428626137"
+        />
+        <br />
+        <button id="q1a1">Europe</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fhometown.jpg?v=1592432654714"
+        />
+        <br />
+        <button id="q1a2">Somewhere near home</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fafrica.jpeg?v=1592432933561"
+        />
+        <br />
+        <button id="q1a3">Africa</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fsouth%20america.jpg?v=1592433047767"
+        />
+        <br />
+        <button id="q1a4">South America</button>
+      </div>
+    </div>
+
+    <h2>By what mode of transportation would you get around?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fcruise%20ship.jpg?v=1592433160390"
+        />
+        <br />
+        <button id="q2a1">Cruise ship</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fplane.jpg?v=1592433241533"
+        />
+        <br />
+        <button id="q2a2">
+          Plane to get there, bus to get around, and walking short distnces
+        </button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fcar.jpeg?v=1592433384911"
+        />
+        <br />
+        <button id="q2a3">Rent a car</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fprocrastination.jpg?v=1592433528011"
+        />
+        <br />
+        <button id="q2a4">Whatever I find when I get there!</button>
+      </div>
+    </div>
+
+    <h2>
+      What is the first thing you would do once you have arrived at your
+      destination?
+    </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Funpacking.jpg?v=1592433645522"
+        />
+        <br />
+        <button id="q3a1">Get to the hotel and start unpacking</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fexplore.jpg?v=1592433735793"
+        />
+        <br />
+        <button id="q3a2">Start exploring the city</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Flost%20luggage.jpg?v=1592433803244"
+        />
+        <br />
+        <button id="q3a3">
+          Well, my suitcase was lost in baggage claim so I'll just wait at the
+          airport I guess
+        </button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fcheck.jpg?v=1592433912250"
+        />
+        <br />
+        <button id="q3a4">
+          Double check all my trip information to make sure none of my plans
+          have been interrupted/canceled
+        </button>
+      </div>
+    </div>
+
+    <h2>When would you travel?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fsummer.jpg?v=1592436748060"
+        />
+        <br />
+        <button id="q4a1">Summer</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fwinter.jpg?v=1592436817622"
+        />
+        <br />
+        <button id="q4a2">Winter</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Ffall.jpeg?v=1592436905206"
+        />
+        <br />
+        <button id="q4a3">Fall</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fspring.jpg?v=1592436966447"
+        />
+        <br />
+        <button id="q4a4">Spring</button>
+      </div>
+    </div>
+
+    <h2>Where is your favorite place on your trip?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fpool.jpg?v=1592514756796"
+        />
+        <br />
+        <button id="q5a1">Poolside</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fmuseum.jpg?v=1592514878939"
+        />
+        <br />
+        <button id="q5a2">Museum or Historical Site</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fcity.jpg?v=1592514959085"
+        />
+        <br />
+        <button id="q5a3">Anywhere I haven't been yet!</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fhotelroom.jpeg?v=1592515068145"
+        />
+        <br />
+        <button id="q5a4">Hotel room</button>
+      </div>
+    </div>
+
+    
+  <h2>Who are you traveling with?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Ffam.jpeg?v=1592608121703"
+        />
+        <br />
+        <button id="q6a1">Family</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fsolo.jpg?v=1592607960524"
+        />
+        <br />
+        <button id="q6a2">I fly solo but make new friends wherever I go!</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Fbesties.jpg?v=1592608357252"
+        />
+        <br />
+        <button id="q6a3">My besties</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/8d60de9f-b21e-4790-9dd9-c89b8e347444%2Falone.jpeg?v=1592608704222"
+        />
+        <br />
+        <button id="q6a4">Alone—people get on my nerve</button>
+      </div>
+    </div>
+    
+    <div class="result">
+      <h2 id="result">Your result is...</h2>
+      <button id="restart">Retake quiz</button>
+    </div>
+  </body>
+</html>

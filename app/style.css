@@ -1,0 +1,31 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-image: linear-gradient(#ccb3ff, #b3e6ff);
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-size: 40px;
+    font-family: 'Merienda', cursive; 
+  
+  color: #800040;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+  flex-direction: row;
+}
+
+.answer-choice img {
+  height: 10em; 
+}
+img {object-fit: cover; height: 160px; width: 190px; padding: 10px;}
+
+

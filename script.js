@@ -46,35 +46,181 @@ var restart = document.getElementById("restart");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 
-q1a1.addEventListener("click", reserved);
-q1a2.addEventListener("click", neurotic);
-q1a3.addEventListener("click", adventurous);
-q1a4.addEventListener("click", fastidious);
+// q1a1.addEventListener("click", reserved);
+q1a1.addEventListener("click", function() {
+  reserved();
+  q1a1.disabled = true;
+  q1a2.disabled = true;
+  q1a3.disabled = true;
+  q1a4.disabled = true;
+});
+q1a2.addEventListener("click", function() {
+  neurotic();
+  q1a1.disabled = true;
+  q1a2.disabled = true;
+  q1a3.disabled = true;
+  q1a4.disabled = true;
+});
+q1a3.addEventListener("click", function() {
+  adventurous();
+  q1a1.disabled = true;
+  q1a2.disabled = true;
+  q1a3.disabled = true;
+  q1a4.disabled = true;
+});
+q1a4.addEventListener("click", function() {
+  fastidious();
+  q1a1.disabled = true;
+  q1a2.disabled = true;
+  q1a3.disabled = true;
+  q1a4.disabled = true;
+});
 
-q2a1.addEventListener("click", neurotic);
-q2a2.addEventListener("click", fastidious);
-q2a3.addEventListener("click", reserved);
-q2a4.addEventListener("click", adventurous);
+q2a1.addEventListener("click", function() {
+  neurotic();
+  q2a1.disabled = true;
+  q2a2.disabled = true;
+  q2a3.disabled = true;
+  q2a4.disabled = true;
+});
+q2a2.addEventListener("click", function() {
+  fastidious();
+  q2a1.disabled = true;
+  q2a2.disabled = true;
+  q2a3.disabled = true;
+  q2a4.disabled = true;
+});
+q2a3.addEventListener("click", function() {
+  reserved();
+  q2a1.disabled = true;
+  q2a2.disabled = true;
+  q2a3.disabled = true;
+  q2a4.disabled = true;
+});
+q2a4.addEventListener("click", function() {
+  adventurous();
+  q2a1.disabled = true;
+  q2a2.disabled = true;
+  q2a3.disabled = true;
+  q2a4.disabled = true;
+});
 
-q3a1.addEventListener("click", reserved);
-q3a2.addEventListener("click", adventurous);
-q3a3.addEventListener("click", neurotic);
-q3a4.addEventListener("click", fastidious);
+q3a1.addEventListener("click", function() {
+  reserved();
+  q3a1.disabled = true;
+  q3a2.disabled = true;
+  q3a3.disabled = true;
+  q3a4.disabled = true;
+}
+);
+q3a2.addEventListener("click", function() {
+  adventurous();
+  q3a1.disabled = true;
+  q3a2.disabled = true;
+  q3a3.disabled = true;
+  q3a4.disabled = true;
+});
+q3a3.addEventListener("click", function() {
+  neurotic();
+  q3a1.disabled = true;
+  q3a2.disabled = true;
+  q3a3.disabled = true;
+  q3a4.disabled = true;
+});
+q3a4.addEventListener("click", function() {
+  fastidious();
+  q3a1.disabled = true;
+  q3a2.disabled = true;
+  q3a3.disabled = true;
+  q3a4.disabled = true;
+});
 
-q4a1.addEventListener("click", fastidious);
-q4a2.addEventListener("click", reserved);
-q4a3.addEventListener("click", neurotic);
-q4a4.addEventListener("click", adventurous);
+q4a1.addEventListener("click", function() {
+  fastidious();
+  q4a1.disabled = true;
+  q4a2.disabled = true;
+  q4a3.disabled = true;
+  q4a4.disabled = true;
+});
+q4a2.addEventListener("click", function() {
+  reserved();
+  q4a1.disabled = true;
+  q4a2.disabled = true;
+  q4a3.disabled = true;
+  q4a4.disabled = true;
+});
+q4a3.addEventListener("click", function() {
+  neurotic();
+  q4a1.disabled = true;
+  q4a2.disabled = true;
+  q4a3.disabled = true;
+  q4a4.disabled = true;
+});
+q4a4.addEventListener("click", function() {
+  adventurous();
+  q4a1.disabled = true;
+  q4a2.disabled = true;
+  q4a3.disabled = true;
+  q4a4.disabled = true;
+});
 
-q5a1.addEventListener("click", reserved);
-q5a2.addEventListener("click", fastidious);
-q5a3.addEventListener("click", adventurous);
-q5a4.addEventListener("click", neurotic);
+q5a1.addEventListener("click", function() {
+  reserved();
+  q5a1.disabled = true;
+  q5a2.disabled = true;
+  q5a3.disabled = true;
+  q5a4.disabled = true;
+});
+q5a2.addEventListener("click", function() {
+  fastidious();
+  q5a1.disabled = true;
+  q5a2.disabled = true;
+  q5a3.disabled = true;
+  q5a4.disabled = true;
+});
+q5a3.addEventListener("click", function() {
+  adventurous();
+  q5a1.disabled = true;
+  q5a2.disabled = true;
+  q5a3.disabled = true;
+  q5a4.disabled = true;
+});
+q5a4.addEventListener("click", function() {
+  neurotic();
+  q5a1.disabled = true;
+  q5a2.disabled = true;
+  q5a3.disabled = true;
+  q5a4.disabled = true;
+});
 
-q6a1.addEventListener("click", reserved);
-q6a2.addEventListener("click", adventurous);
-q6a3.addEventListener("click", fastidious);
-q6a4.addEventListener("click", neurotic);
+q6a1.addEventListener("click", function() {
+  reserved();
+  q6a1.disabled = true;
+  q6a2.disabled = true;
+  q6a3.disabled = true;
+  q6a4.disabled = true;
+});
+q6a2.addEventListener("click", function() {
+  adventurous();
+  q6a1.disabled = true;
+  q6a2.disabled = true;
+  q6a3.disabled = true;
+  q6a4.disabled = true;
+});
+q6a3.addEventListener("click", function() {
+  fastidious();
+  q6a1.disabled = true;
+  q6a2.disabled = true;
+  q6a3.disabled = true;
+  q6a4.disabled = true;
+});
+q6a4.addEventListener("click", function() {
+  neurotic();
+  q6a1.disabled = true;
+  q6a2.disabled = true;
+  q6a3.disabled = true;
+  q6a4.disabled = true;
+});
 
 restart.addEventListener("click", retake);
 
